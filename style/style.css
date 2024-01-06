@@ -1,0 +1,14 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner css start */
+.banner{
+    background-image: url('..images/banner/banner3.png');
+}
+.banner_content{}
+.banner_content h3{}
+.banner_content p{}
+/* Banner css end */
