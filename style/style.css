@@ -1,14 +1,51 @@
 /* common css */
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-/* Banner css start */
-.banner{
-    background-image: url('..images/banner/banner3.png');
+body {
+    font-family: 'Raleway', sans-serif;
 }
-.banner_content{}
-.banner_content h3{}
-.banner_content p{}
+.btn-primary{
+    font-weight: 600;
+    color: #015fac;
+    padding: 15px 17px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Banner css start */
+.banner {
+    display: flex;
+    background-image: url('../images/banner/banner3.png');
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 100px;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.banner_content {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.banner_content h3 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.banner_content p {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 150px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
 /* Banner css end */
